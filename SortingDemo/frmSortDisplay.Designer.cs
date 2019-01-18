@@ -28,12 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.btnInsertionSort = new System.Windows.Forms.Button();
             this.btnQuickSort = new System.Windows.Forms.Button();
             this.btnRadixSort = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.lblSortingOutput = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
+            this.chrVisual = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            ((System.ComponentModel.ISupportInitialize)(this.chrVisual)).BeginInit();
             this.SuspendLayout();
             // 
             // btnInsertionSort
@@ -72,15 +76,6 @@
             this.button1.Text = "Counting Sort";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // lblSortingOutput
-            // 
-            this.lblSortingOutput.BackColor = System.Drawing.Color.White;
-            this.lblSortingOutput.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblSortingOutput.Location = new System.Drawing.Point(215, 30);
-            this.lblSortingOutput.Name = "lblSortingOutput";
-            this.lblSortingOutput.Size = new System.Drawing.Size(553, 325);
-            this.lblSortingOutput.TabIndex = 4;
-            // 
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(28, 98);
@@ -90,19 +85,36 @@
             this.button2.Text = "MergeSort";
             this.button2.UseVisualStyleBackColor = true;
             // 
+            // chrVisual
+            // 
+            chartArea1.Name = "ChartArea1";
+            this.chrVisual.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            this.chrVisual.Legends.Add(legend1);
+            this.chrVisual.Location = new System.Drawing.Point(226, 33);
+            this.chrVisual.Name = "chrVisual";
+            series1.ChartArea = "ChartArea1";
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            this.chrVisual.Series.Add(series1);
+            this.chrVisual.Size = new System.Drawing.Size(542, 322);
+            this.chrVisual.TabIndex = 6;
+            this.chrVisual.Text = "chart1";
+            // 
             // frmSortDisplay
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.chrVisual);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.lblSortingOutput);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnRadixSort);
             this.Controls.Add(this.btnQuickSort);
             this.Controls.Add(this.btnInsertionSort);
             this.Name = "frmSortDisplay";
             this.Text = "Sorter";
+            ((System.ComponentModel.ISupportInitialize)(this.chrVisual)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -113,8 +125,8 @@
         private System.Windows.Forms.Button btnQuickSort;
         private System.Windows.Forms.Button btnRadixSort;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label lblSortingOutput;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chrVisual;
     }
 }
 

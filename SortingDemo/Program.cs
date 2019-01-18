@@ -19,7 +19,7 @@ namespace SortingDemo
             Application.SetCompatibleTextRenderingDefault(false);
             int[] test = new int[] { 5, 3, 2, 2, 1, 6 };
 
-            InsertionSort<int>.Sort(test);
+            MergeSort<int>.Sort(test, 0, test.Length - 1);
 
             Console.WriteLine(test);
             //Application.Run(new frmSortDisplay());

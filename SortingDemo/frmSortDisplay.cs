@@ -16,5 +16,10 @@ namespace SortingDemo
         {
             InitializeComponent();
         }
+
+        public void VisualizeSortingAlgorithm()
+        {
+
+        }
     }
 }
