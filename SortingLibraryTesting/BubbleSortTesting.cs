@@ -1,11 +1,11 @@
 ﻿using System;
-using SortingAlgorithmLibrary;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using SortingAlgorithmLibrary;
 
 namespace SortingLibraryTesting
 {
     [TestClass]
-    public class MergeSortTesting
+    public class BubbleSortTesting
     {
         [TestMethod]
         public void TestSort()
@@ -16,7 +16,7 @@ namespace SortingLibraryTesting
             var dualDisorderedSet = new int[] { 38, 3 };
             var disorderedSet = new int[] { 3, 9, 3, 15, 2 };
 
-            var test = new MergeSort<int>();
+            var test = new BubbleSort<int>();
             test.Sort(emptySet);
             test.Sort(singleSet);
             test.Sort(dualSet);

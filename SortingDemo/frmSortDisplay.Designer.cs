@@ -37,6 +37,8 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.chrVisual = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.btnRandomize = new System.Windows.Forms.Button();
+            this.btnSort = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.chrVisual)).BeginInit();
             this.SuspendLayout();
             // 
@@ -99,13 +101,32 @@
             this.chrVisual.Series.Add(series1);
             this.chrVisual.Size = new System.Drawing.Size(542, 322);
             this.chrVisual.TabIndex = 6;
-            this.chrVisual.Text = "chart1";
+            // 
+            // btnRandomize
+            // 
+            this.btnRandomize.Location = new System.Drawing.Point(256, 375);
+            this.btnRandomize.Name = "btnRandomize";
+            this.btnRandomize.Size = new System.Drawing.Size(164, 48);
+            this.btnRandomize.TabIndex = 7;
+            this.btnRandomize.Text = "Randomize";
+            this.btnRandomize.UseVisualStyleBackColor = true;
+            // 
+            // btnSort
+            // 
+            this.btnSort.Location = new System.Drawing.Point(480, 375);
+            this.btnSort.Name = "btnSort";
+            this.btnSort.Size = new System.Drawing.Size(164, 48);
+            this.btnSort.TabIndex = 8;
+            this.btnSort.Text = "Sort";
+            this.btnSort.UseVisualStyleBackColor = true;
             // 
             // frmSortDisplay
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnSort);
+            this.Controls.Add(this.btnRandomize);
             this.Controls.Add(this.chrVisual);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -127,6 +148,8 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.DataVisualization.Charting.Chart chrVisual;
+        private System.Windows.Forms.Button btnRandomize;
+        private System.Windows.Forms.Button btnSort;
     }
 }
 

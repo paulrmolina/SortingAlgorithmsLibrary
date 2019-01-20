@@ -1,7 +1,6 @@
 C:\Users\Paul\source\repos\SortingAlgorithmLibrary\SortingAlgorithmLibrary\bin\Debug\netstandard2.0\SortingAlgorithmLibrary.deps.json
 C:\Users\Paul\source\repos\SortingAlgorithmLibrary\SortingAlgorithmLibrary\bin\Debug\netstandard2.0\SortingAlgorithmLibrary.dll
 C:\Users\Paul\source\repos\SortingAlgorithmLibrary\SortingAlgorithmLibrary\bin\Debug\netstandard2.0\SortingAlgorithmLibrary.pdb
-C:\Users\Paul\source\repos\SortingAlgorithmLibrary\SortingAlgorithmLibrary\obj\Debug\netstandard2.0\SortingAlgorithmLibrary.csprojAssemblyReference.cache
 C:\Users\Paul\source\repos\SortingAlgorithmLibrary\SortingAlgorithmLibrary\obj\Debug\netstandard2.0\SortingAlgorithmLibrary.csproj.CoreCompileInputs.cache
 C:\Users\Paul\source\repos\SortingAlgorithmLibrary\SortingAlgorithmLibrary\obj\Debug\netstandard2.0\SortingAlgorithmLibrary.AssemblyInfoInputs.cache
 C:\Users\Paul\source\repos\SortingAlgorithmLibrary\SortingAlgorithmLibrary\obj\Debug\netstandard2.0\SortingAlgorithmLibrary.AssemblyInfo.cs
