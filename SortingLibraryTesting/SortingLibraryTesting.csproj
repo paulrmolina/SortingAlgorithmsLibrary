@@ -53,6 +53,7 @@
     <Compile Include="MergeSortTesting.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="BubbleSortTesting.cs" />
+    <Compile Include="SelectionSortTesting.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

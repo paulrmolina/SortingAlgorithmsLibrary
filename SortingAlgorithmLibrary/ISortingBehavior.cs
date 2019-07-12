@@ -12,6 +12,6 @@ namespace SortingAlgorithmLibrary
     /// <typeparam name="T"></typeparam>
     public interface ISortingBehavior<T>
     {
-        void Sort(IList<T> collection);
+        void Sort( IList<T> collection );
     }
 }

@@ -17,17 +17,17 @@ namespace SortingAlgorithmLibrary
         /// Sorts a collection of items using bubble sort. Truly a marvel to behold.
         /// </summary>
         /// <param name="collection"></param>
-        public void Sort(IList<T> collection)
+        public void Sort( IList<T> collection )
         {
             // Holds the index of the lowest value in the remainder of the collection
             // not yet sorted.
             // TODO: add a loop invariant in docs to show why this sorting method is valid
             var nextLowestValueIndex = 0;
 
-            for(int x = 0; x < collection.Count - 1; x++)
+            for( int x = 0; x < collection.Count - 1; x++ )
             {
                 nextLowestValueIndex = x;
-                for(int y = x + 1; y < collection.Count; y++)
+                for( int y = x + 1; y < collection.Count; y++ )
                 {
                     if(collection[nextLowestValueIndex].CompareTo(collection[y]) >= 0)
                     {
@@ -53,7 +53,7 @@ namespace SortingAlgorithmLibrary
         /// <param name="collection">the collection which will be modified</param>
         /// <param name="index_1">the index of the first value to be swapped</param>
         /// <param name="index_2">the index of the second value to be swapped</param>
-        private void Swap(IList<T> collection, int index_1, int index_2)
+        private void Swap( IList<T> collection, int index_1, int index_2 )
         {
             var temp = collection[index_1];
             collection[index_1] = collection[index_2];

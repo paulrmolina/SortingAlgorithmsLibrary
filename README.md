@@ -9,7 +9,7 @@ Enjoy.
 
 ## Algorithms Implemented
 
-- [ ] Selection Sort
+- [x] Selection Sort
 - [x] Bubble Sort
 - [x] Insertion Sort
 - [x] Merge Sort
