@@ -17,11 +17,11 @@ namespace SortingLibraryTesting
             var disorderedSet = new int[] { 3, 9, 3, 15, 2 };
 
             var test = new BubbleSort<int>();
-            test.Sort(emptySet);
-            test.Sort(singleSet);
-            test.Sort(dualSet);
-            test.Sort(dualDisorderedSet);
-            test.Sort(disorderedSet);
+            test.Sort( emptySet );
+            test.Sort( singleSet );
+            test.Sort( dualSet );
+            test.Sort( dualDisorderedSet );
+            test.Sort( disorderedSet );
 
             CollectionAssert.AreEqual(emptySet, new int[] { }, "I expect this set to be empty");
             CollectionAssert.AreEqual(singleSet, new int[] { 1 }, "I expect this set to be { 1 }");

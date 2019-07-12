@@ -5,10 +5,10 @@ using System.Text;
 namespace SortingAlgorithmLibrary
 {
     /// <summary>
-    /// This class represents the infamous Bubble Sort algorithm. It is
-    /// by far one of the most inefficient algorithms known to man but... it works..
-    /// It's running time is in O(pow(n, 2)). My implementation is about as ugly as
-    /// it gets and truly inefficient.
+    /// Represents the infamous Bubble Sort algorithm. It is by far one
+    /// of the most inefficient algorithms known to man but... it works..
+    /// It's running time is in O(pow(n, 2)). My implementation is about
+    /// as ugly as it gets and truly inefficient.
     /// </summary>
     /// <typeparam name="T">generic object to sort</typeparam>
     public class BubbleSort<T> : ISortingBehavior<T> where T : IComparable<T>
